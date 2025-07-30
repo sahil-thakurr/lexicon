@@ -4,7 +4,7 @@ import { usePuterStore } from "~/lib/puter"
 
 export const meta=()=>([
   {title: 'Lexicon | Auth'},
-  {name: 'description', content: ',Log into your account'}
+  {name: 'description', content: 'Log into your account'}
 ])
 const Auth=() => {
   const {isLoading, auth} = usePuterStore();
